@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 from flask import Flask, request, render_template
 
 # Load the dataset
-df = pd.read_csv("C:/Users/Tanvi Gajula/Downloads/RTA Dataset.csv")
+df = pd.read_csv("https://github.com/Tanvi-Gajula/Roadaccidentseverity.app/blob/main/RTA%20Dataset.csv")
 
 # convert object type column into datetime datatype column
 df['Time'] = pd.to_datetime(df['Time'])
